@@ -1,0 +1,29 @@
+.card {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #737373;
+  margin: 16px;
+  padding: 16px;
+  display: flex;
+
+  &-body {
+    width: 100%;
+  }
+
+  &-title {
+    width: 100%;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #737373;
+    margin: 0;
+  }
+
+
+}
+
+.border-primary {
+  border: 1px solid red;
+
+  .card-title {
+    border-bottom: 1px solid red;
+  }
+}
